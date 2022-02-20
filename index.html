@@ -1,86 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/file.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Tina Sutherland: About</title>
+
+    <!-- Link in Bootstrap CSS Framework -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
+
+    <!-- Link my own CSS styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body class="my-background">
+    <!-- copied from https://getbootstrap.com/docs/4.4/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my-navbar">
+        <!-- my-brand sets color to white, but that doesn't work. style statement does -->
+        <a class="navbar-brand my-brand" style="color: rgb(1, 12, 14)" href="#">Tina Sutherland</a>
 
-    <!-- Hero section -->
-    <section class="hero">
-        <nav>
-            <div>Logo</div>
-            <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        <div class="hero-area">
-        <div class="hero-text">
-            <h1>Tina Sutherland</h1>
-            <p>Full Stack Developer</p>
-            <div class="button">About Me</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link my-navbar-links active" href="#">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link my-navbar-links" href="./portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link my-navbar-links" href="./contact.html">Contact</a>
+            </div>
         </div>
-        <div class="socials">
-            <div>TW</div>
-            <div>LI</div>
-            <div>GH</div>
+    </nav>
+
+    <div class="container my-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="my-h1">About Me</h1>
+                <hr>
+                <img class="my-image" src="./Assets/Images/image_6487327.JPG" alt="Tina Sutherland's picture"> 
+
+                <section class="my-para">
+                    <p>I am a versatile and innovative artist who obtained my Bachelor of Fine Arts Degree from the Ontario College
+                        of Art and Design. Amoungst Painting , Drawing and Graphic Design I also created three dimentional art
+                        pieces with the use of metal, wood and plastics. </p>
+                    <p>Born in Trinidad and keeping with my roots, I am also the founder and designer of my own line of steel pan
+                        sticks and souvenir products by the name of 'Cool Sticks'.</p>
+                    <p>I currently work for Service Ontario in the customer care department as well as manage a resturant part-time.
+                        I am also recently seperated and raising an amazing 5 year old boy mostly on my own.</p>
+                    <p>I am excited about this new venture in life and hope to go far with my newly obtained Knowledge in web
+                        development.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ab, suscipit distinctio nihil assumenda quo. Dolorem sint aliquam cumque? Culpa, modi fugit! Numquam fugit dicta harum magnam similique, in laboriosam!
+                    Deserunt ex architecto similique ullam ipsa minima temporibus. Ea reprehenderit aperiam numquam iste, nisi soluta beatae cum, recusandae assumenda eius veritatis veniam reiciendis aliquam blanditiis atque ut sit obcaecati perspiciatis.
+                    Culpa, porro assumenda libero suscipit placeat cupiditate, maiores molestiae, consequatur molestias blanditiis ipsam fuga eaque perferendis. Facere dignissimos necessitatibus quasi, maxime ratione, ea nemo labore commodi suscipit iusto facilis atque.
+                    Quaerat mollitia quisquam repellendus, quae tempore magnam sapiente dolorem architecto provident culpa saepe voluptate, eos perspiciatis minima cupiditate magni esse earum neque amet reiciendis cumque. Esse reprehenderit saepe perspiciatis nisi?
+                    Vitae cumque enim iste perspiciatis.</p>
+                    <p> Ut iste saepe aliquid maxime eligendi! Accusamus impedit libero porro illo explicabo, neque dolorum animi laborum ad quidem expedita cum aliquid ut fuga fugit nostrum.
+                    Nostrum dolorem aliquam aspernatur ducimus voluptatibus corporis ea nulla beatae blanditiis commodi. Velit, reiciendis quas. Blanditiis cumque, laborum voluptatibus quisquam reprehenderit perferendis aliquid voluptatem accusantium eveniet ea provident. Eius, voluptatibus.
+                    Omnis eaque reiciendis iusto sint optio mollitia, rem nobis expedita eligendi ab fugiat, autem, asperiores enim. Corporis officiis velit dicta cumque? Officia atque unde quisquam. Aperiam consequuntur architecto quas aliquid.
+                    Dolor quod cum fugiat sit inventore officiis! Doloremque eos accusamus quos est quisquam fugiat quod et pariatur deleniti cumque dolor expedita repellat, minima, tempora ut vitae. Unde laborum minus nesciunt.
+                    Voluptatibus laborum assumenda cum officiis architecto iste ex doloremque rerum quaerat odio dolor repellendus obcaecati modi, explicabo ipsam animi corporis doloribus nisi eius aspernatur pariatur. Quis eligendi illum ex officiis!
+                    Quibusdam, voluptatum mollitia id exercitationem placeat similique ab possimus perferendis praesentium velit impedit iste quo nisi eum sequi in expedita qui repellat. Sed ratione at voluptatibus distinctio doloribus quis animi.</p>
+                </section>
+            </div>
         </div>
     </div>
 
-    </section>
-    <!-- About Me -->
-    <section id="About-me" class="intro">
-        <h2 class="section-title primary-border">About Me</h2>
-        <p>I am a versatile and innovative artist who obtained my Bachelor of Fine Arts Degree from the Ontario College
-            of Art and Design. Amoungst Painting , Drawing and Graphic Design I also created three dimentional art
-            pieces with the use of metal, wood and plastics. </p>
-        <p>Born in Trinidad and keeping with my roots, I am also the founder and designer of my own line of steel pan
-            sticks and souvenir products by the name of 'Cool Sticks'.</p>
-        <p>I currently work for Service Ontario in the customer care department as well as manage a resturant part-time.
-            I am also recently seperated and raising an amazing 5 year old boy mostly on my own.</p>
-        <p>I am excited about this new venture in life and hope to go far with my newly obtained Knowledge in web
-            development.</p>
-
-    
-    <!-- My Portfolio -->
-    <section id="work" class="work">
-        <div>
-            <h3>My Work</h3>
-        </div>    
-        <div class="imageSmash">
-            <embed src="https://tinastouch.github.io/Group-Project/" type="text/html">
+    <footer class="bg-secondary text-white-50 my-footer">
+        <hr class="my-footer-hr">
+        <div class="container text-center my-footer-text">
+            <small>Copyright &copy; 2022 UFT</small>
         </div>
-        <div class="comingSoon">
-            <img src="./Assets/images/coming-soon.jpeg" alt="Coming soon!">
-        </div>
-        <div class="comingSoon">
-            <img src="./Assets/images/coming-soon.jpeg" alt="Coming soon!">
-        </div>
-        <div class="comingSoon">
-            <img src="./Assets/images/coming-soon.jpeg" alt="Coming soon!">
-        </div>     
-    </section>
+    </footer>
 
-    <section id="My-work" class="Samples">
-        <h2 class="section-title secondary-border">My Portfolio</h2>
-        <div>
-            <!-- Instert image element -->
-
-
-        </div>
-
-    </section>
-
+    <!-- Add links to Bootstrap JavaScript to make hamburger menu work -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
-
 </html>
