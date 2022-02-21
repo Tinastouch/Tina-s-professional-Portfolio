@@ -1,6 +1,8 @@
 # My-professional-Portfolio
 
-#Objective
+
+  ## About The Project
+
 Load their portfolio
 Presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 Able to click one of the links in the navigation
@@ -16,26 +18,35 @@ Presented with a responsive layout that adapts to my viewport
 Make sure a code meets the accessibility standards so that the site is optimized for search engines
 
 
-#Languages
-HTML
-CSS
+  ## Table of Contents
 
-Technologies
-Git Hub: Create Repository
-Terminal: Push and Pull repository
-Visual code: To write HTML and CSS
+  * [Built With](#languages)
+  
+  * [Contributing](#contributing)
 
-#Process
-1. Cloned repository from git hub
-2. Created a title
-3. Created Nav bar
-4. Created about me section
-5. Worki inprogress
+  * [Screenshoot](#screenshot)
 
-#Project (In progress)
+  * [Questions](#questions)
 
-URL of the deployed application
-URL of the GitHub repository
 
-Last updated Jan 4th
-Tina Sutherland
+  ## Built With
+
+ HTML,CSS,
+  
+
+  ## Contributing
+Tutor assistance Joem Casusi
+
+## Screenshot
+
+<img width="1205" alt="Screen Shot 2022-02-20 at 11 57 43 PM" src="https://user-images.githubusercontent.com/93742788/154892097-7bc4e482-fbc9-43f0-ab4c-d7016808ea1e.png">
+<img width="1205" alt="Screen Shot 2022-02-20 at 11 57 55 PM" src="https://user-images.githubusercontent.com/93742788/154892099-3c79da70-73e6-4ca3-85f1-1dc110a69f07.png">
+<img width="1205" alt="Screen Shot 2022-02-20 at 11 58 12 PM" src="https://user-images.githubusercontent.com/93742788/154892101-8e582aed-56b2-491c-a1f1-5b1723189d31.png">
+
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact me directly at
+tinastouch@gmail.com. 
+
+You can find more of my work at https://github.com/tinastouch.
