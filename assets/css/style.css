@@ -11,7 +11,11 @@ https://stackoverflow.com/questions/4847850/is-it-possible-to-define-constants-i
     background-repeat: round;
 }
 .bg-light{
-    background: #010505;
+    background: var(--my-color) !important;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
 }
 /* Navigation bar, at the top of the screen */
 .my-navbar {
@@ -26,7 +30,7 @@ https://stackoverflow.com/questions/4847850/is-it-possible-to-define-constants-i
 }
 
 .bg-secondary{
-    background: #062829;
+    background: var(--my-color) !important;
 }
 
 /* Area on navigation bar that has my name */
@@ -108,7 +112,7 @@ https://stackoverflow.com/questions/4847850/is-it-possible-to-define-constants-i
     bottom: 0;
     left: 0;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 3px;
     opacity: 95%;
 }
 
