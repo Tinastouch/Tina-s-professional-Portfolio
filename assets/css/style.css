@@ -81,6 +81,16 @@ https://stackoverflow.com/questions/4847850/is-it-possible-to-define-constants-i
     background-color: #fff;
 }
 
+.spacedOut embed {
+    height: 30vw;
+    width: 30vw;
+    margin: 1vw;
+    border: #0a9cc9 2px solid;
+    border-radius: 2vw;
+    padding: .25vw;
+    background-color: #fff;
+}
+
 .my-image {
     width: 170px;
     height: 200px;
